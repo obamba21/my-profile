@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: #f0f2f5;
+  color: #1a1a2e;
+}
+
+header.hero {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 40px;
+  max-width: 700px;
+  margin: 40px auto 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #6c63ff;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+}
+
+.bio {
+  color: #555;
+  max-width: 520px;
+  margin: 0 auto 28px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #6c63ff;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #574fd6;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 36px 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #6c63ff;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  max-width: 700px;
+  margin: 24px auto 60px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 36px 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+footer p {
+  color: #aaa;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+ul.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+ul.social-links li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+
+ul.social-links li a:hover {
+  color: #6c63ff;
+}
